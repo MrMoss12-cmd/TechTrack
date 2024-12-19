@@ -1,0 +1,57 @@
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Archivos y directorios de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Configuración del entorno
+.env
+*.env
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos y configuraciones de IDEs/editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de log
+*.log
+
+# Archivos estáticos generados
+/staticfiles/
+/static/
+*.sass-cache
+
+# Archivos de migración
+migrations/
+
+# Archivos de cobertura y pruebas
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.pytest_cache/
+*.cover
+
+# Archivos de paquetes
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+pip-wheel-metadata/
+
+# Archivos de Docker
+*.pid
